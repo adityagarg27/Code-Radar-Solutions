@@ -7,6 +7,6 @@ if(num % 2 == 0){
     printf("The number is even: %d\n", num);
 }
 else if{
-    printf("The number is odd: %d\n", num)
+    printf("The number is odd: %d\n", num);
 }
 return 0;
