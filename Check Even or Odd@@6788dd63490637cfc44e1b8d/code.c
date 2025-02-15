@@ -6,7 +6,7 @@ scanf("%d", &num);
 if(num % 2 == 0){
     printf("The number is even: %d\n", num);
 }
-else if{
+else{
     printf("The number is odd: %d\n", num);
 }
 return 0;
