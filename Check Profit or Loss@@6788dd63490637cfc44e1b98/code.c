@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int costprice, sellingprice;
-    scanf("%d", &costprice, &sellingprice);
+    scanf("%d %d", &costprice, &sellingprice);
     if(costprice==0 && sellingprice==0){
         printf("No Profit No Loss");
     }
