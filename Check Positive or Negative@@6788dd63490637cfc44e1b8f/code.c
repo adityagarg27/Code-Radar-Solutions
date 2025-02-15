@@ -2,7 +2,7 @@
 int main(){
     int num;
     scanf("%d", &num);
-    printf("Enter a number: ");
+    
     if(num>0){
         printf("The number is positive: %d\n", num);
     }
