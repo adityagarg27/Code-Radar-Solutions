@@ -8,7 +8,7 @@ int main(){
     else if(num % 3 == 0){
         printf("Divisible by 3");
     }
-    else if(num % 9 == 0){
+    else if(num % 5 == 0){
         printf("Divisible by 9");
     }
     return 0;
