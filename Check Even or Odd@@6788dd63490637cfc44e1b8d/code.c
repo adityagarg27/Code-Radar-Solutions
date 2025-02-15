@@ -4,10 +4,10 @@ int num;
 printf("Enter a number: ");
 scanf("%d", &num);
 if(num % 2 == 0) {
-    printf("Even\n");
+    printf("%d is Even\n", num);
 }
 else{
-    printf("Odd\n");
+    printf("%d is Odd\n", num);
 }
 return 0;
 }
