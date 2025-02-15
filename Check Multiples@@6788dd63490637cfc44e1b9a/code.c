@@ -5,7 +5,7 @@ int main(){
     if(num1/num2){
         printf("Yes");
     }
-    else if{
+    else{
         printf("No");
     }
     return 0;
