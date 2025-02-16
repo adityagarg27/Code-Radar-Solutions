@@ -13,8 +13,8 @@ int main(){
     else if( c=='*'){
         printf("%d\n",b*d);
     }
-    else if( c=='/'){
-        printf("error\n",b/d);
+    else if( c!='/'){
+        printf("%d\n",b/d);
     }
     else{
         printf("error");
