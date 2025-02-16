@@ -14,7 +14,7 @@ int main(){
         printf("%d\n",b*d);
     }
     else if( c=='/'){
-        if( c!='0'){
+        if( c!=0){
 
     
     
