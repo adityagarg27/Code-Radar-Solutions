@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int num = 7;
-    scanf("%d",&num);
+    scanf("%d", &num);
     if( num==1){
         printf("Monday");
     }
@@ -24,8 +24,8 @@ int main(){
     else if( num==7){
         printf("Sunday");
     }
-     else{
+    else if( num>7){
         printf("Invalid"):
-     }
+    }
     return 0;
 }
