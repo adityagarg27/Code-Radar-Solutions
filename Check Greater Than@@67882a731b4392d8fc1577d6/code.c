@@ -8,5 +8,5 @@ int main(){
     else if(num1<num2){
         printf("False: %d", num1, num2);
     }
-    return o;
+    return 0;
 }
