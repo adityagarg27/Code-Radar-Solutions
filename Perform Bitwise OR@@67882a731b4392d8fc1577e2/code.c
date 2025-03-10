@@ -4,9 +4,7 @@ int main(){
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 
-
-int result = num1 | num2;
-printf("Result of %d | %d = %d", num1, num2, result);
+printf("Numbers using Bitwise OR: (%d | 0) = %d and (%d | 0) = %d", num1, num1 | 0, num2, num2 |0);
 
 return 0;
     
