@@ -5,6 +5,6 @@ int main(){
     for(int i = n; i <= n; i++){
         for(char ch = 'A'; ch <= n; ch++){
             printf("%c",ch);
-        }
+        }printf("\n");
     }return 0;
 }
