@@ -5,6 +5,6 @@ int main(){
     for(int i = 1; i <= n;i++){
         sum += i;
     }
-    printf("Sum od first %d natural numbers is: %d\n",n, sum);
+    printf("Sum of first %d natural numbers is: %d\n",n, sum);
     return 0;
 }
