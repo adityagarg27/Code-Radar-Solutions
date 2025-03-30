@@ -42,12 +42,18 @@ void printPrimesInRange(int a, int b)
     a = b;
     b = temp;
 }
+int found = 0;
 for(int i = a; i <= b;i++)
 
 {
     if(isPrime(i))
     {
         printf("%d ", i);
+        found = 1;
+    }
+    if (!found)
+    {
+        printf("No prime numbers")
     }
 }
     printf("\n");
