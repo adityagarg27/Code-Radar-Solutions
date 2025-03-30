@@ -35,7 +35,7 @@ int isPrime(int num)
 
 
 
-void printPrimesInRange(int a, int b)
+void isPrime(int a, int b)
 {
     if(a > b){
     int temp = a;
