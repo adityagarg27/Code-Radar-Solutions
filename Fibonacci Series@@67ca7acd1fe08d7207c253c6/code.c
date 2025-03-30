@@ -8,7 +8,7 @@ void fibonacciSeries(int n)
         a = b;
         b = temp;
     }
-    print("\n");
+    printf("\n");
     
     
     
