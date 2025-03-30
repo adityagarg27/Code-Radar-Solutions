@@ -8,7 +8,7 @@ void calculatePenalty(int dueDay, int dueMonth, int dueYear, int subDay, int sub
     // Check if submission is on time
     if (subYear < dueYear || (subYear == dueYear && subMonth < dueMonth) || 
        (subYear == dueYear && subMonth == dueMonth && subDay <= dueDay)) {
-        printf("✅ Submission is on time. No penalty.\n");
+        printf(" Submission is on time. No penalty.\n");
         return;
     }
 
