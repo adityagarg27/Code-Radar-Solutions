@@ -35,7 +35,7 @@ int isPrime(int num)
 
 
 
-void isPrime(int a, int b)
+void printPrimesInRange(int a, int b)
 {
     if(a > b){
     int temp = a;
@@ -51,10 +51,10 @@ for(int i = a; i <= b;i++)
         printf("%d ", i);
         found = 1;
     }
-    if (!found)
+    
+}if (!found)
     {
-        printf("No prime numbers")
+        printf("No prime numbers");
     }
-}
     printf("\n");
 }
