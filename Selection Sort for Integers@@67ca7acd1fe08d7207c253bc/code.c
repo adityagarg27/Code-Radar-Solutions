@@ -1,5 +1,5 @@
 #include <stdio.h>
-void selectionsort(int arr[], int n)
+void selectionSort(int arr[], int n)
 {
     int i, j, minIndex, temp;
     for(i = 0; i < n - 1;i++){   
