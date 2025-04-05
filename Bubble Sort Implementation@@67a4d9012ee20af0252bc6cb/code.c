@@ -26,7 +26,7 @@ for(int i = 0; i < n - 1;i++){
 void printArray(int arr[], int n){
 int i;
 for(int i = 0; i < n;i++){
-    printf("%d",arr[i]);
+    printf("%d ",arr[i]);
 }
-printf("\n");
+printf("\n ");
 }
