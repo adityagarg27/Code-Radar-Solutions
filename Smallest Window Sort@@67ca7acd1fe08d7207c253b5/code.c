@@ -1,12 +1,12 @@
 #include <stdio.h>
 int findUnsortedSubarray(int arr[], int n){
-int start = 0, int end = n - 1;
+int start = 0,  end = n - 1;
 while( start < n - 1 && arr[start] <= arr[start+1])
 start++;
-if(start == 1)
+if(start == n-1)
 return 0;
 while( end  > 0 && arr[end] >= arr[end-1])
-end--
+end--;
 int min = arr[start], max = arr[start];
 for (int i = start; i <= end; i++){
 if(arr[i] < min)
