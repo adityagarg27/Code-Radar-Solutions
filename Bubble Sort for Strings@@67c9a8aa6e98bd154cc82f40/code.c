@@ -7,7 +7,7 @@ void bubbleSort(arr[][100], int n){
         for(int j = 0; i = n - i - 1;j++){
             if(strcpy(arr[j], arr[j + 1]) > 0){
             char temp[100];
-            strcpy(temp, arr[i]);
+            strcpy(temp, arr[j]);
             strcpy(arr[j], arr[j + 1]);
             strcpy(arr[j + 1], temp);
             }
