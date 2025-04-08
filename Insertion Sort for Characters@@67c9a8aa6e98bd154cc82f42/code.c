@@ -5,7 +5,7 @@ void insertionSort(char arr[], int n){
         arr[j] = i - 1;
         while( j >= 0; && arr[j] > key){
             arr[j+1] = arr[j];
-            j--
+            j--;
         }
         arr[j+1] = key;
 
