@@ -1,6 +1,6 @@
 #include <stdio.h>
 void findOccurence(int arr[], int n, int target, int mode);
-int low = 0; high = n - 1; return = -1
+int low = 0; int high = n - 1; return = -1
 while (low <= high){
     int mid = (low+high)/2;
     if (arr[mid] == target){
