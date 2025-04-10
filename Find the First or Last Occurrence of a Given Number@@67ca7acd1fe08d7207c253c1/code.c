@@ -1,5 +1,5 @@
 #include <stdio.h>
-void findOccurence(int arr[], int n, int target, char mode){
+int findOccurrence(int arr[], int n, int target, char mode){
 int low = 0, high = n - 1, result = -1;
 while (low <= high){
     int mid = (low+high)/2;
@@ -18,12 +18,11 @@ while (low <= high){
         else{
             high = mid - 1;
         }
-        else{
-            return -1
-        }
+        
         
     
 
 }
+return result;
 
 }
