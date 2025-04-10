@@ -23,6 +23,6 @@ while (low <= high){
     
 
 }
-return result;
+return -1;
 
 }
