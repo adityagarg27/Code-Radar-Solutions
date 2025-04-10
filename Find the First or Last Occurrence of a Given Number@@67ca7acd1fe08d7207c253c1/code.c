@@ -11,13 +11,15 @@ while (low <= high){
         else if(mode == 'L'){
             low = mid + 1;
         }
+    }
         else if(arr[mid] < target){
             low = mid + 1;
         }
         else{
             high = mid - 1;
         }
-    }
-    return result;
+    
+
 }
+return result;
 }
