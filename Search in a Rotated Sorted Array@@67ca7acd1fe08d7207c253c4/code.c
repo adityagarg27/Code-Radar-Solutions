@@ -6,7 +6,7 @@ int searchInRotatedArray(int n, int target, int arr[]){
         if(arr[mid] == target)
         return mid;
         if (arr[left] <= arr[mid]){
-            if(target >= arr[left] && target < are[mid])
+            if(target >= arr[left] && target < arr[mid])
             right = mid - 1;
             else
             left = mid + 1;
