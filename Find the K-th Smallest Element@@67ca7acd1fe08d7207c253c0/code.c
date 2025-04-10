@@ -13,14 +13,11 @@ void bubbleSort(int arr[], int n){
 }
 void kthSmallest(int arr[], int n, int k){
     bubbleSort(arr,n);
-    for(int i = 0; i < n;i++){
-        printf("%d", arr[i]);
+    if (k >= 1 && k <= n){
+        return arr[k-1];
     }
-    printf("\n");
-    if(k >= 1 && k <= n){
-        printf("%d", arr[k-1]);
-    
-    }else
-    printf("return -1");
+    else {
+        return -1;
+    }
 
 }
