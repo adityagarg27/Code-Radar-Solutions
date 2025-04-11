@@ -24,8 +24,8 @@ void rotateRight(int arr[], int n, int d) {
 void printArray(int arr[], int n) {
     // printf("Rotated array: ");
     for (int i = 0; i < n; i++)
-        printf("%d", arr[i]);
-    printf("\n");
+        printf("%d\n", arr[i]);
+    // printf("\n");
 }
 
 int main() {
